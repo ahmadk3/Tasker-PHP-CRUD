@@ -16,5 +16,6 @@ To do so, you must run the content of the file `mysqltable.txt` in your database
 
 After successfully running it, access:
 
-localhost/"yourfoldername"/
+`localhost/"yourfoldername"/`
+
 
