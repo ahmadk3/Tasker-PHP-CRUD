@@ -1,0 +1,15 @@
+CREATE TABLE `tb_users` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `mail` varchar(100) NOT NULL,
+ `pass` varchar(16) NOT NULL,
+ PRIMARY KEY (`id`),
+ UNIQUE KEY `mail` (`mail`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `tb_tasks` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `name` varchar(200) NOT NULL,
+ `description` varchar(2000) NOT NULL,
+ `file` varchar(1000) DEFAULT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=latin1;
